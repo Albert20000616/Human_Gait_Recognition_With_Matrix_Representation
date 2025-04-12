@@ -381,7 +381,7 @@ def plot_dimension_performance(k_values, l_values, rank1_scores, rank5_scores):
 # 7. Main Program (Direct prediction on entire dataset)
 if __name__ == "__main__":
     # Load data
-    root_dir = "/Users/manman2023/PycharmProjects/7404_dingman_come/GaitDatasetB-silh/GEI"
+    root_dir = "./GEI"
     images, labels = load_gei_dataset(root_dir)
     print("Image tensor shape:", images.shape)
     print("Label tensor shape:", labels.shape)
