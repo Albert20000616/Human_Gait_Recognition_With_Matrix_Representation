@@ -105,7 +105,7 @@ def csa(X, k, l, max_iter=10, tol=1e-6):
 # Example usage
 if __name__ == "__main__":
     # Dataset root directory
-    root_dir = r"C:\Users\89778\Desktop\Project\GaitDatasetB-silh\GEI"
+    root_dir = r".\GEI"
 
     # Load data
     images, labels = load_gei_dataset(root_dir)
